@@ -7,20 +7,15 @@ public class NhapXuatHoTen {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//Khai báo các biến chứa dữ liệu nhập vào
-				String hoTen;
-				int tuoi;
-				double chieuCao;
-				double canNang;
-				// Tạo đối tượng của lớp Scanner để nhập dữ liệu
-				Scanner banPhim; // Khai báo
-				banPhim = new Scanner (System.in);// xin mời
-				// Đọc dữ liệu từ bàn phím, cất vào các biến tương ứng
-				
-				// Lấy chuỗi
-				hoTen= banPhim.nextLine();
-				tuoi = banPhim.nextInt();
-				chieuCao = banPhim.nextDouble();
-				System.out.println("Họ và tên: " + hoTen);
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Nhập họ: ");
+		String ho = scanner.nextLine();
+		System.out.print("Nhập chữ lót: ");
+		String chuLot = scanner.nextLine();
+		System.out.print("Nhập tên: ");
+		String ten = scanner.nextLine();
+System.out.println("---------------------------");
+				System.out.println("Họ và tên: " + ho + chuLot + ten);
 	}
 
 }
