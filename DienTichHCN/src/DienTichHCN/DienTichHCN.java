@@ -6,8 +6,8 @@ public class DienTichHCN {
 		// TODO Auto-generated method stub
 		Scanner abc = new Scanner(System.in);
 		// Diện tích HCn= dài * rộng
-		System.out.println("Nhập chiều dài hcn (m): + ");
-		System.out.println("Nhập chiều rộng hcn (m): + ");
+		System.out.println("Nhập chiều dài hcn (m):  ");
+		System.out.println("Nhập chiều rộng hcn (m):  ");
 		double r = abc.nextDouble();
 		double d = abc.nextDouble();
 		//Công thức
